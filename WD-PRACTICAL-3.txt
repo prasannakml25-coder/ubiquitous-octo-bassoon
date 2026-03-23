@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Web Page</title>
+</head>
+<body>
+
+    <!-- Marquee Tag (Note: This tag is deprecated but functional in most browsers) -->
+    <marquee behavior="scroll" direction="left" scrollamount="10">
+        <h1>welcome </h1>
+    </marquee>
+
+    <!-- Text Formatting Tags -->
+    <p>This is a paragraph featuring <b>bold text</b>, <i>italicized text</i>, and <u>underlined text</u>.</p>
+    <p>We can also show <mark>highlighted text</mark> or <code>inline code snippets</code>.</p>
+
+    <hr>
+
+    <!-- Image Tag -->
+    <h3>A Cool Image:</h3>
+    <img src="https://via.placeholder.com" alt="Placeholder Image" width="150">
+
+    <hr>
+
+    <!-- Hyperlink Tag -->
+    <h3>Useful Link:</h3>
+    <p>Check out <a href="https://www.google.com" target="_blank">Google</a> for more info.</p>
+
+    <hr>
+
+    <!-- Lists Tags -->
+    <h3>My Lists:</h3>
+    
+    <p><b>Unordered List:</b></p>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <p><b>Ordered List:</b></p>
+    <ol>
+        <li>First Step</li>
+        <li>Second Step</li>
+        <li>Third Step</li>
+    </ol>
+
+</body>
+</html>
