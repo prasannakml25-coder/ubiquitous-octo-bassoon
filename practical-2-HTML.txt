@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Simple Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 40px 20px;
+        }
+
+        .services {
+            display: flex;
+            gap: 20px;
+        }
+
+        article {
+            background: #f4f4f4;
+            padding: 20px;
+            flex: 1;
+            border-radius: 5px;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section>
+        <h2>About Me</h2>
+        <p>Hello! I am learning HTML5 and building modern semantic websites.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section>
+        <h2>My Services</h2>
+        <div class="services">
+            <article>
+                <h3>Web Design</h3>
+                <p>Creating clean and modern website designs.</p>
+            </article>
+
+            <article>
+                <h3>Development</h3>
+                <p>Building responsive and user-friendly websites.</p>
+            </article>
+
+            <article>
+                <h3>SEO</h3>
+                <p>Optimizing websites for better search rankings.</p>
+            </article>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section>
+        <h2>Latest Articles</h2>
+
+        <article>
+            <h3>Learning HTML5</h3>
+            <p>HTML5 provides powerful semantic elements for modern web design.</p>
+        </article>
+
+        <article>
+            <h3>Why Semantic Tags Matter</h3>
+            <p>Semantic tags improve SEO, accessibility, and code readability.</p>
+        </article>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>©️ 2026 My Portfolio Website | Contact: email@example.com</p>
+    </footer>
+
+</body>
+</html>
